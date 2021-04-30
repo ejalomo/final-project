@@ -1,0 +1,30 @@
+
+
+
+* {
+    font-family: ;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav {
+    text-decoration: none;
+    flex-wrap: nowrap;
+    z-index: 1;
+    position: fixed;
+}
+
+nav > a{
+
+}
+
+nav > a:hoover{
+
+}
+
+main{
+    position: relative;
+}
