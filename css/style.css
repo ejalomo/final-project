@@ -1,13 +1,12 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Sarina&display=swap');
 
 * {
-    font-family: ;
     box-sizing: border-box;
 }
 
 body{
     margin: 0;
+    background-color: rgb(37, 37, 46);
 }
 
 nav {
@@ -15,6 +14,9 @@ nav {
     flex-wrap: nowrap;
     z-index: 1;
     position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: lavenderblush;
 }
 
 nav > a{
@@ -22,9 +24,16 @@ nav > a{
 }
 
 nav > a:hoover{
-
+    
 }
 
 main{
     position: relative;
+}
+
+header, footer{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    border-style: rgb(154, 36, 190) solid 2px;
 }
