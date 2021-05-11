@@ -2,21 +2,24 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
     margin: 0;
     background-color: rgb(37, 37, 46);
+    color: white;
 }
 
 nav {
     text-decoration: none;
     flex-wrap: nowrap;
     z-index: 1;
-    position: fixed;
+    position: sticky;
     width: 100%;
-    height: 10vh;
+    height: 5vh;
     background-color: lavenderblush;
+    text-align: right;
 }
 
 nav > a{
@@ -25,6 +28,9 @@ nav > a{
 
 nav > a:hoover{
     
+}
+h1{
+    font-size: 15pt;
 }
 
 main{
@@ -35,5 +41,8 @@ header, footer{
     position: relative;
     width: 100%;
     height: 5vh;
-    border-style: rgb(154, 36, 190) solid 2px;
+    border: #ff5be9 solid 1.5px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
 }
