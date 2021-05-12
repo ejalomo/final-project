@@ -12,30 +12,32 @@ body{
 }
 
 nav {
-    text-decoration: none;
-    flex-wrap: nowrap;
     z-index: 1;
     position: sticky;
     width: 100%;
     height: 5vh;
     background-color: lavenderblush;
     text-align: right;
+    display: flex;
+    align-items: right;
 }
 
 nav > a{
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(37, 37, 46);
 
 }
 
 nav > a:hoover{
-    
+    animation-delay: 2s;
+
 }
+
 h1{
     font-size: 15pt;
 }
 
-main{
-    position: relative;
-}
 
 header, footer{
     position: relative;
@@ -45,4 +47,27 @@ header, footer{
     padding: 10px;
     justify-content: center;
     text-align: center;
+}
+
+.One, .Two, .Three{
+    width: 30%;
+    height: 50vh;
+    padding: 10px;
+    border: white solid 3px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+img{
+    height: 50px;
+}
+
+
+.img-sm{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
 }
