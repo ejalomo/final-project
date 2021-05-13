@@ -31,11 +31,13 @@ nav > a{
 
 nav > a:hoover{
     animation-delay: 2s;
+    border: #ff5be9 solid 1.5px;
 
 }
 
 h1{
     font-size: 15pt;
+    text-align: center;
 }
 
 
@@ -53,7 +55,7 @@ header, footer{
     width: 30%;
     height: 50vh;
     padding: 10px;
-    border: white solid 3px;
+    /*border: white solid 3px;*/
     text-align: center;
     display: inline-block;
     justify-content: center;
@@ -61,13 +63,85 @@ header, footer{
     margin: 15px;
 }
 
-img{
-    height: 50px;
+.Logo{
+    height: 25px;
 }
-
 
 .img-sm{
     height: 250px;
     width: 250px;
-    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    border: lavenderblush solid 5px;
 }
+
+p{
+    text-align: center;
+}
+
+/*footer*/
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: ;
+    justify-content: center;
+  }
+
+/* About Page */
+.Cupcake{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: lavenderblush solid 10px;
+    margin: auto;
+    display: block;
+}
+
+.Bio{
+    width: 75wh;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    margin-bottom: 50px;
+}
+
+/* Contact Page */
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ff5be9; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+}
+  
+  input[type=submit] {
+    background-color: #ff5be9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+input[type=submit]:hover {
+    background-color: #a32993;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form {
+    border-radius: 5px;
+    background-color: lavenderblush;
+    padding: 20px;
+    color:rgb(37, 37, 46);
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+  }
+  
