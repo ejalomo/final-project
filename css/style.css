@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Sarina&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Open+Sans:wght@300;400&display=swap');
+</style>
 
 * {
     box-sizing: border-box;
@@ -9,24 +11,31 @@ body{
     margin: 0;
     background-color: rgb(37, 37, 46);
     color: white;
+    font-family: 'Open-Sans', sans-serif ;
+    font-size: 11pt;
+}
+
+main{
+    margin: auto;
 }
 
 nav {
+    position: relative;
     z-index: 1;
     position: sticky;
     width: 100%;
     height: 5vh;
     background-color: lavenderblush;
     text-align: right;
-    display: flex;
-    align-items: right;
+    padding: 15px;
 }
 
 nav > a{
     padding: 15px;
     text-decoration: none;
     color: rgb(37, 37, 46);
-
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 nav > a:hoover{
@@ -36,15 +45,20 @@ nav > a:hoover{
 }
 
 h1{
-    font-size: 15pt;
+    font-size: 25pt;
     text-align: center;
+    font-family: 'Miniver', cursive;
 }
 
+h3{
+    font-size: 12pt;
+    color: #ff5be9;
+}
 
 header, footer{
     position: relative;
     width: 100%;
-    height: 5vh;
+    height: auto;
     border: #ff5be9 solid 1.5px;
     padding: 10px;
     justify-content: center;
@@ -52,7 +66,7 @@ header, footer{
 }
 
 .One, .Two, .Three{
-    width: 30%;
+    width: 28%;
     height: 50vh;
     padding: 10px;
     /*border: white solid 3px;*/
@@ -64,12 +78,19 @@ header, footer{
 }
 
 .Logo{
-    height: 25px;
+    height: 30px;
+    float: left;
+    margin: 10px;
+}
+
+.Landing{
+    width: 100%;
+    height: 50vh;
 }
 
 .img-sm{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     margin: 10px;
     border-radius: 50%;
     border: lavenderblush solid 5px;
@@ -133,7 +154,6 @@ input[type=submit]:hover {
     background-color: #a32993;
   }
   
-  /* Add a background color and some padding around the form */
   .form {
     border-radius: 5px;
     background-color: lavenderblush;
